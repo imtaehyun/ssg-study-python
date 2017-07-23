@@ -1,8 +1,13 @@
 # Week 02
 
 ## Python Package Manager (pip)
+* Python 모듈을 설치 관리해주는 툴
+* Python 설치시 기본적으로 포함
 *	pypi.python.org에서 관리
 * pip 실행안될 경우 환경변수 확인
+```consol
+pip install <module>
+```
 
 ## Jupyter: Python 코드 문서화 도구
 * 공식 사이트: http://jupyter.org/
@@ -19,7 +24,7 @@ jupyter notebook
 ### 참고
 * 클래스 상속 인터페이스는 확인할 필요가 있다.
 * raw_input은 input으로 바뀌었다. (python3)
-* FileIO에서 비어있는 line은 lenth가 1이다.
+* FileIO에서 비어있는 line은 length가 1이다.
 * Pickle 객체를 binary로 file로 저장할 수 있다.
 * 유니코드는 python3에서는 신경쓸 필요가 없다. (건너뛰세요!)
 
